@@ -35,6 +35,18 @@ body,
   width: 300px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 
+  .add-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      position: absolute;
+      top: 16px;
+      left: 230px;
+      margin: 0 10px;
+    }
+  }
+
   ul {
     list-style: none;
     text-align: start;
