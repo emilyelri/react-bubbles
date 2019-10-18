@@ -55,6 +55,8 @@ const ColorList = ({ colors, updateColors }) => {
       // console.log(res);
       let newColor = res.data[res.data.length-1];
       updateColors([...colors, newColor])
+      setColorToAdd(initialColor);
+      setAdding(false);
     })
     .catch(err => console.log("Add failed!", err));
   }
